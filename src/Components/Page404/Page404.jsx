@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "../Footer/Footer.jsx";
 
 export default function Page404() {
   return (
@@ -60,6 +61,8 @@ export default function Page404() {
           </div>
         </div>
       </div>
+
+      <Footer/>
     </div>
   );
 }
