@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "./Style/Font.css";
+body{
+     font-family: "Tajawal", sans-serif;
+}
+
+@layer components{
+
+
+     .btn-primary{
+     @apply bg-linear-to-r from-orange-500 to-orange-600   text-white px-6 py-3 rounded-full font-medium  ;
+}
+
+.btn-primary:hover{
+     @apply shadow-lg shadow-orange-500/30;
+}
+
+.btn-secondary{
+     @apply bg-[#161616]  text-white px-6 py-3 rounded-full font-medium  border border-[#262626];
+}
+.btn-secondary:hover{
+     @apply border-orange-500/50;
+}
+
+}
+
